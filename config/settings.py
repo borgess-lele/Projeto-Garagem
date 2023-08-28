@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'usuario',
     'uploader',
     'drf_spectacular',
+    'django_extensions',
     'garagem',
 ]
 
@@ -52,8 +53,8 @@ REST_FRAMEWORK = {
 }
 
 SPECTACULAR_SETTINGS = {
-    "TITLE": "Livraria API",
-    "DESCRIPTION": "API para gerenciamento de livraria, incluindo endpoints e documentação.",
+    "TITLE": "Garagem API",
+    "DESCRIPTION": "API para gerenciamento de garagem, incluindo endpoints e documentação.",
     "VERSION": "1.0.0",
 }
 
