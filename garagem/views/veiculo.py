@@ -7,7 +7,7 @@ from garagem.serializers import VeiculoSerializer, VeiculoListSerializer,Veiculo
 
 class VeiculoViewSet(ModelViewSet):
     queryset = Veiculo.objects.all()
-    
+
     def get_serializer_class(self):
         if self.action == "list":
             return VeiculoListSerializer
